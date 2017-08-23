@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21266231F4D244300FF50CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E21266221F4D244300FF50CA /* main.m */; };
+		E21266261F4D244300FF50CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E21266251F4D244300FF50CA /* AppDelegate.m */; };
+		E21266291F4D244300FF50CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21266281F4D244300FF50CA /* ViewController.m */; };
+		E212662C1F4D244300FF50CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E212662A1F4D244300FF50CA /* Main.storyboard */; };
+		E212662F1F4D244300FF50CA /* ShareSDKWechat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E212662D1F4D244300FF50CA /* ShareSDKWechat.xcdatamodeld */; };
+		E21266311F4D244300FF50CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21266301F4D244300FF50CA /* Assets.xcassets */; };
+		E21266341F4D244300FF50CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21266321F4D244300FF50CA /* LaunchScreen.storyboard */; };
+		E212663F1F4D244300FF50CA /* ShareSDKWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E212663E1F4D244300FF50CA /* ShareSDKWechatTests.m */; };
+		E212664A1F4D244300FF50CA /* ShareSDKWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E21266491F4D244300FF50CA /* ShareSDKWechatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E212663B1F4D244300FF50CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21266161F4D244300FF50CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E212661D1F4D244300FF50CA;
+			remoteInfo = ShareSDKWechat;
+		};
+		E21266461F4D244300FF50CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21266161F4D244300FF50CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E212661D1F4D244300FF50CA;
+			remoteInfo = ShareSDKWechat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E212661E1F4D244300FF50CA /* ShareSDKWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareSDKWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21266221F4D244300FF50CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E21266241F4D244300FF50CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E21266251F4D244300FF50CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E21266271F4D244300FF50CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E21266281F4D244300FF50CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E212662B1F4D244300FF50CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E212662E1F4D244300FF50CA /* ShareSDKWechat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShareSDKWechat.xcdatamodel; sourceTree = "<group>"; };
+		E21266301F4D244300FF50CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E21266331F4D244300FF50CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E21266351F4D244300FF50CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E212663A1F4D244300FF50CA /* ShareSDKWechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDKWechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212663E1F4D244300FF50CA /* ShareSDKWechatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareSDKWechatTests.m; sourceTree = "<group>"; };
+		E21266401F4D244300FF50CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21266451F4D244300FF50CA /* ShareSDKWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDKWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21266491F4D244300FF50CA /* ShareSDKWechatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareSDKWechatUITests.m; sourceTree = "<group>"; };
+		E212664B1F4D244300FF50CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E212661B1F4D244300FF50CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21266371F4D244300FF50CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21266421F4D244300FF50CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21266151F4D244300FF50CA = {
+			isa = PBXGroup;
+			children = (
+				E21266201F4D244300FF50CA /* ShareSDKWechat */,
+				E212663D1F4D244300FF50CA /* ShareSDKWechatTests */,
+				E21266481F4D244300FF50CA /* ShareSDKWechatUITests */,
+				E212661F1F4D244300FF50CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E212661F1F4D244300FF50CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E212661E1F4D244300FF50CA /* ShareSDKWechat.app */,
+				E212663A1F4D244300FF50CA /* ShareSDKWechatTests.xctest */,
+				E21266451F4D244300FF50CA /* ShareSDKWechatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21266201F4D244300FF50CA /* ShareSDKWechat */ = {
+			isa = PBXGroup;
+			children = (
+				E21266241F4D244300FF50CA /* AppDelegate.h */,
+				E21266251F4D244300FF50CA /* AppDelegate.m */,
+				E21266271F4D244300FF50CA /* ViewController.h */,
+				E21266281F4D244300FF50CA /* ViewController.m */,
+				E212662A1F4D244300FF50CA /* Main.storyboard */,
+				E21266301F4D244300FF50CA /* Assets.xcassets */,
+				E21266321F4D244300FF50CA /* LaunchScreen.storyboard */,
+				E21266351F4D244300FF50CA /* Info.plist */,
+				E212662D1F4D244300FF50CA /* ShareSDKWechat.xcdatamodeld */,
+				E21266211F4D244300FF50CA /* Supporting Files */,
+			);
+			path = ShareSDKWechat;
+			sourceTree = "<group>";
+		};
+		E21266211F4D244300FF50CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21266221F4D244300FF50CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E212663D1F4D244300FF50CA /* ShareSDKWechatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E212663E1F4D244300FF50CA /* ShareSDKWechatTests.m */,
+				E21266401F4D244300FF50CA /* Info.plist */,
+			);
+			path = ShareSDKWechatTests;
+			sourceTree = "<group>";
+		};
+		E21266481F4D244300FF50CA /* ShareSDKWechatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E21266491F4D244300FF50CA /* ShareSDKWechatUITests.m */,
+				E212664B1F4D244300FF50CA /* Info.plist */,
+			);
+			path = ShareSDKWechatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E212661D1F4D244300FF50CA /* ShareSDKWechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E212664E1F4D244300FF50CA /* Build configuration list for PBXNativeTarget "ShareSDKWechat" */;
+			buildPhases = (
+				E212661A1F4D244300FF50CA /* Sources */,
+				E212661B1F4D244300FF50CA /* Frameworks */,
+				E212661C1F4D244300FF50CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareSDKWechat;
+			productName = ShareSDKWechat;
+			productReference = E212661E1F4D244300FF50CA /* ShareSDKWechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E21266391F4D244300FF50CA /* ShareSDKWechatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21266511F4D244300FF50CA /* Build configuration list for PBXNativeTarget "ShareSDKWechatTests" */;
+			buildPhases = (
+				E21266361F4D244300FF50CA /* Sources */,
+				E21266371F4D244300FF50CA /* Frameworks */,
+				E21266381F4D244300FF50CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E212663C1F4D244300FF50CA /* PBXTargetDependency */,
+			);
+			name = ShareSDKWechatTests;
+			productName = ShareSDKWechatTests;
+			productReference = E212663A1F4D244300FF50CA /* ShareSDKWechatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E21266441F4D244300FF50CA /* ShareSDKWechatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21266541F4D244300FF50CA /* Build configuration list for PBXNativeTarget "ShareSDKWechatUITests" */;
+			buildPhases = (
+				E21266411F4D244300FF50CA /* Sources */,
+				E21266421F4D244300FF50CA /* Frameworks */,
+				E21266431F4D244300FF50CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21266471F4D244300FF50CA /* PBXTargetDependency */,
+			);
+			name = ShareSDKWechatUITests;
+			productName = ShareSDKWechatUITests;
+			productReference = E21266451F4D244300FF50CA /* ShareSDKWechatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21266161F4D244300FF50CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "段世宜";
+				TargetAttributes = {
+					E212661D1F4D244300FF50CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E21266391F4D244300FF50CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E212661D1F4D244300FF50CA;
+					};
+					E21266441F4D244300FF50CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E212661D1F4D244300FF50CA;
+					};
+				};
+			};
+			buildConfigurationList = E21266191F4D244300FF50CA /* Build configuration list for PBXProject "ShareSDKWechat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E21266151F4D244300FF50CA;
+			productRefGroup = E212661F1F4D244300FF50CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E212661D1F4D244300FF50CA /* ShareSDKWechat */,
+				E21266391F4D244300FF50CA /* ShareSDKWechatTests */,
+				E21266441F4D244300FF50CA /* ShareSDKWechatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E212661C1F4D244300FF50CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21266341F4D244300FF50CA /* LaunchScreen.storyboard in Resources */,
+				E21266311F4D244300FF50CA /* Assets.xcassets in Resources */,
+				E212662C1F4D244300FF50CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21266381F4D244300FF50CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21266431F4D244300FF50CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E212661A1F4D244300FF50CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212662F1F4D244300FF50CA /* ShareSDKWechat.xcdatamodeld in Sources */,
+				E21266291F4D244300FF50CA /* ViewController.m in Sources */,
+				E21266261F4D244300FF50CA /* AppDelegate.m in Sources */,
+				E21266231F4D244300FF50CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21266361F4D244300FF50CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212663F1F4D244300FF50CA /* ShareSDKWechatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21266411F4D244300FF50CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212664A1F4D244300FF50CA /* ShareSDKWechatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E212663C1F4D244300FF50CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E212661D1F4D244300FF50CA /* ShareSDKWechat */;
+			targetProxy = E212663B1F4D244300FF50CA /* PBXContainerItemProxy */;
+		};
+		E21266471F4D244300FF50CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E212661D1F4D244300FF50CA /* ShareSDKWechat */;
+			targetProxy = E21266461F4D244300FF50CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E212662A1F4D244300FF50CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E212662B1F4D244300FF50CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E21266321F4D244300FF50CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21266331F4D244300FF50CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E212664C1F4D244300FF50CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E212664D1F4D244300FF50CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E212664F1F4D244300FF50CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareSDKWechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = disery.ShareSDKWechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E21266501F4D244300FF50CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareSDKWechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = disery.ShareSDKWechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E21266521F4D244300FF50CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareSDKWechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = disery.ShareSDKWechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareSDKWechat.app/ShareSDKWechat";
+			};
+			name = Debug;
+		};
+		E21266531F4D244300FF50CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareSDKWechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = disery.ShareSDKWechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareSDKWechat.app/ShareSDKWechat";
+			};
+			name = Release;
+		};
+		E21266551F4D244300FF50CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareSDKWechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = disery.ShareSDKWechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareSDKWechat;
+			};
+			name = Debug;
+		};
+		E21266561F4D244300FF50CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareSDKWechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = disery.ShareSDKWechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareSDKWechat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21266191F4D244300FF50CA /* Build configuration list for PBXProject "ShareSDKWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212664C1F4D244300FF50CA /* Debug */,
+				E212664D1F4D244300FF50CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E212664E1F4D244300FF50CA /* Build configuration list for PBXNativeTarget "ShareSDKWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E212664F1F4D244300FF50CA /* Debug */,
+				E21266501F4D244300FF50CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E21266511F4D244300FF50CA /* Build configuration list for PBXNativeTarget "ShareSDKWechatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21266521F4D244300FF50CA /* Debug */,
+				E21266531F4D244300FF50CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E21266541F4D244300FF50CA /* Build configuration list for PBXNativeTarget "ShareSDKWechatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21266551F4D244300FF50CA /* Debug */,
+				E21266561F4D244300FF50CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E212662D1F4D244300FF50CA /* ShareSDKWechat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E212662E1F4D244300FF50CA /* ShareSDKWechat.xcdatamodel */,
+			);
+			currentVersion = E212662E1F4D244300FF50CA /* ShareSDKWechat.xcdatamodel */;
+			path = ShareSDKWechat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E21266161F4D244300FF50CA /* Project object */;
+}
