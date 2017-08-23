@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import "WXApi.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    [ShareSDK registerActivePlatforms:@[@(SSDKPlatformSubTypeWechatSession),@(SSDKPlatformSubTypeWechatTimeline)] onImport:^(SSDKPlatformType platformType) {
+        switch (platformType)
+        {
+            case SSDKPlatformSubTypeWechatSession:
+                [ShareSDKConnector connectWeChat:[WXApi class]];
+                break;
+            case SSDKPlatformSubTypeWechatTimeline:
+                [ShareSDKConnector connectWeChat:[WXApi class]];
+                break;
+            default:
+                break;
+        }
+        
+    } onConfiguration:^(SSDKPlatformType platformType, NSMutableDictionary *appInfo) {
+        switch (platformType)
+        {
+            case SSDKPlatformSubTypeWechatSession:
+                [appInfo SSDKSetupWeChatByAppId:@"wx4868b35061f87885"
+                                      appSecret:@"64020361b8ec4c99936c0e3999a9f249"];
+                break;
+            case SSDKPlatformSubTypeWechatTimeline:
+                [appInfo SSDKSetupWeChatByAppId:@"wx4868b35061f87885"
+                                      appSecret:@"64020361b8ec4c99936c0e3999a9f249"];
+                break;
+            default:
+                break;
+        }
+    }];
+
+     
     return YES;
 }
 
